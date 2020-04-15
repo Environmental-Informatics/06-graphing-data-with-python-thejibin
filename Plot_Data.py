@@ -60,6 +60,8 @@ plt.xlabel('Year',fontsize=7)
 plt.ylabel("RBindex (ratio)",fontsize=7)
 plt.title("Bar Plot showing RBindex",fontsize=7)
 plt.legend(loc='upper left',frameon=True,fontsize=5)
+
+## Title for the centered title to the figure
 plt.suptitle("PLOTS FOR INPUT FILE: "+sys.argv[1],fontsize=10)
 
 ## Tweak the spacing between subplots to prevent labels from overlapping
